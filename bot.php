@@ -7,10 +7,10 @@ Modified @ Farzain - zFz
 */
 
 require_once('./line_class.php');
-require_once('./unirest-php-master/src/Unirest.php');
+require_once('./unirest-php-mastYOUR-Cer/src/Unirest.php');
 
-$channelAccessToken = 'YOUR-CHANNEL-ACCESS-TOKEN'; //sesuaikan 
-$channelSecret = 'YOUR-CHANNEL-SECRET-CODE';//sesuaikan
+$channelAccessToken = '3vf/8hPUZTJk9E95obGu7QxwVDzcxHeMAtg/je+LjK8u27VyuY3I5yFqpo4GVm2nfRcdsg6xzbmk/rwLmUTsT7nduJmYdRLAf6S5dxZVf6wiFXWnj4MdVbFIXqqBFZgIL84MkQvyuG+yOAMRJ0WHogdB04t89/1O/w1cDnyilFU='; //sesuaikan 
+$channelSecret = '792704218c3f1ac3ccb6d2dd93b66512';//sesuaikan
 
 $client = new LINEBotTiny($channelAccessToken, $channelSecret);
 
